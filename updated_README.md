@@ -146,3 +146,11 @@ project-folder
 ## Conclusion
 
 Apache Web Server successfully deployed on AWS EC2 instance.
+
+
+change the default Apache web page content to:
+
+WELCOME TO DY PATIL UNIVERSITY PUNE, AMBI
+
+This modifies the default file index.html in the Apache web server directory of Apache HTTP Server running on Amazon EC2.
+echo "<h1>WELCOME TO DY PATIL UNIVERSITY PUNE, AMBI</h1>" | sudo tee /var/www/html/index.html
